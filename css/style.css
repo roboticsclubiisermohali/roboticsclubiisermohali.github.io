@@ -8,5 +8,6 @@
 
 .navbar-toggler-icon {
     font-size: 10px;
-    border: 0px solid transparent;
+    border: none;
+    outline: none;
 }
