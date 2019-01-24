@@ -3,9 +3,10 @@
 }
 
 .navbar-brand {
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .navbar-toggler-icon {
     font-size: 10px;
+    border: 0px;
 }
