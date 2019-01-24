@@ -5,3 +5,7 @@
 .navbar-brand {
     font-size: 15px;
 }
+
+.navbar-toggler-icon {
+    font-size: 10px;
+}
