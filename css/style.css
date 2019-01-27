@@ -193,7 +193,7 @@ a {
 
 #fb {
     display: block;
-    bottom: 1.5em;
+    bottom: 0em;
     position: absolute;
     background: rgb(35, 101, 194);
     border: 0px solid white;
@@ -204,7 +204,8 @@ a {
     transition: background .5s ease-in-out;
     color: rgb(255, 59, 27);
     vertical-align: middle;
-    line-height: 50px;
+    line-height: 47px;
+    font-size: 24px;
     transition: color .2s ease-in-out;
 }
 
@@ -223,5 +224,22 @@ a {
     .navbar a img {
         width: 35.05px;
         height: 20px;
+    }
+    .content h1 {
+        font-size: 20px;
+    }
+    .content p {
+        font-size: 15px;
+        width: 100%;
+        padding: 10px 10px;
+    }
+    #heading h1 {
+        font-size: 30px;
+    }
+    #fb {
+        width: 30px;
+        height: 30px;
+        line-height: 33px;
+        font-size: 18px;
     }
 }
