@@ -6,28 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Robotics Club | IISER Mohali</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <script src="main.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<body onload="navbutton()" onscroll="scroll()">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#">
-            <img src="img/RoboticsClubIconColor.png" width="31.41" height="20" class="d-inline-block align-top" alt=""> <span id='headtext'> Robotics Club |</span> IISER Mohali
+            <img src="img/RoboticsClubIconColor.png" width="47.31" height="30" class="d-inline-block align-top" alt=""> <span id='headtext'> Robotics Club |</span> IISER Mohali
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="hamburger">
+            <span class="navbar-toggler-icon "></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav navbar-right ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About us</a>
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
                 </li>
                 <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -44,9 +53,71 @@
             </ul>
         </div>
     </nav>
+    <div class='scrollNavData'>
+        <section id='home' class="parallax-window scrollNav-content" data-parallax="scroll" data-image-src="img/bgtemp.jpg">
+            <div id='heading'>
+                <h1>Welcome to Robotics Club@IISER Mohali</h1>
+            </div>
+        </section>
+        <section id='about' class='scrollNav-content'>
+            <div class='content'>
+                <h1>About us</h1>
+                <p>
+                    The Robotics Club, <a href="http://iisermohali.ac.in" target="_blank">IISER Mohali</a> is a student run group of highly motivated undergraduate and graduate students from the Indian Institute of Science Education and Research, Mohali.
+                    We believe science and technology should go hand in hand aimed at innovation and recreation of interesting technologies to be used in robots and it's research. Our mission is to push forward what's possible as a student organisation,
+                    both in terms of technical accomplishments and educational value. That is why we welcome students from all backgrounds and experiences, and offer them real hands on experience in constructing robots and leading a team. Our ultimate
+                    goal is to open the possibility of becoming a robotics innovator to anyone. We achieve it via workshop sessions, exhibitions and seminars by experts working worldwide in this field.
+                </p>
+                <div class="parallax-window abtwin" data-parallax="scroll" data-image-src="img/linefollow.jpg">
+                </div>
+            </div>
+        </section>
+        <section id='projects' class='scrollNav-content'>
+            <div class='content'>
+                <h1>Our Projects</h1>
+
+            </div>
+        </section>
+        <section id='team' class='scrollNav-content'>
+            <div class='content'>
+                <h1>Our Team</h1>
+            </div>
+        </section>
+        <section id='contact' class='scrollNav-content'>
+            <div class='content'>
+                <div id="social">
+                    <a href='https://www.facebook.com/roboticsclubiiserm/' target="_blank">
+                        <div id="fb">
+                            <i class="fa fa-facebook-f" style="font-size:1.5em"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="js/scroll-nav.js"></script>
+    <script>
+        $(document).ready(function() {
+            var s = new scrollNav();
+            s.init();
+        });
+
+        function navbutton() {
+            var hamburger = document.getElementById('hamburger');
+
+            $(hamburger).click(function() {
+                $(this).toggleClass('is-active');
+            })
+        }
+    </script>
+
+
 </body>
 
 </html>
