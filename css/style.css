@@ -82,9 +82,7 @@ body {
     padding: 50px 0px 10px 0px;
 }
 
-#about,
-#projects,
-#team {
+.page {
     display: block;
     width: 100%;
     min-height: 100vh;
@@ -136,7 +134,7 @@ body {
 }
 
 .parallax-window {
-    min-height: 400px;
+    min-height: 200px;
     background: transparent;
 }
 
@@ -158,7 +156,7 @@ body {
 
 .content p {
     display: block;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     font-size: 1.1em;
     font-family: 'Josefin Sans', sans-serif;
@@ -171,6 +169,7 @@ body {
 
 .abtwin {
     background: rgba(1, 255, 34, 0.19);
+    height: 400px;
 }
 
 #contact {
@@ -242,4 +241,12 @@ a {
         line-height: 33px;
         font-size: 18px;
     }
+}
+
+.robucover {
+    height: 100vh;
+}
+
+.robucover .content {
+    color: white;
 }
