@@ -218,43 +218,6 @@ a {
     color: rgb(35, 101, 194);
 }
 
-@media screen and (max-aspect-ratio: 1/1) {
-    #headtext {
-        font-size: 20px;
-    }
-    .navbar-brand {
-        font-size: 15px;
-    }
-    .navbar a img {
-        width: 35.05px;
-        height: 20px;
-    }
-    .content h1 {
-        font-size: 20px;
-    }
-    .content p {
-        font-size: 15px;
-        width: 100%;
-        padding: 10px 10px;
-    }
-    #heading h1 {
-        font-size: 30px;
-    }
-    .robucover .content p {
-        height: 100%;
-        width: 100%;
-        margin: 0 auto;
-        font-size: .8em;
-    }
-    .social,
-    .socialico {
-        width: 30px;
-        height: 30px;
-        line-height: 33px;
-        font-size: 18px;
-    }
-}
-
 .robucover {
     height: 100vh;
     background: rgba(31, 31, 31, .7)
@@ -431,4 +394,41 @@ a {
 .content h3 {
     font-family: 'Josefin Sans', sans-serif;
     margin: 2em 0;
+}
+
+@media screen and (max-aspect-ratio: 1/1) {
+    #headtext {
+        font-size: 20px;
+    }
+    .navbar-brand {
+        font-size: 15px;
+    }
+    .navbar a img {
+        width: 35.05px;
+        height: 20px;
+    }
+    .content h1 {
+        font-size: 20px;
+    }
+    .content p {
+        font-size: 15px;
+        width: 100%;
+        padding: 10px 10px;
+    }
+    #heading h1 {
+        font-size: 30px;
+    }
+    .robucover .content p {
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        font-size: .8em;
+    }
+    .social,
+    .socialico {
+        width: 30px;
+        height: 30px;
+        line-height: 33px;
+        font-size: 18px;
+    }
 }
