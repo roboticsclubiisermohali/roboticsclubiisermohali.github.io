@@ -196,7 +196,6 @@ a {
     position: absolute;
     margin: 0 auto;
     height: 45px;
-    width: 100%;
 }
 
 .socialico {
@@ -206,7 +205,6 @@ a {
     border-radius: 50%;
     width: 45px;
     height: 45px;
-    margin: auto;
     text-align: center;
     transition: background .5s ease-in-out;
     color: rgb(255, 59, 27);
@@ -250,7 +248,6 @@ a {
     }
     .social,
     .socialico {
-        display: inline-block;
         width: 30px;
         height: 30px;
         line-height: 33px;
