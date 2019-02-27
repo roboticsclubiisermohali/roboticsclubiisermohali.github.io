@@ -1,4 +1,14 @@
 'use strict';
+window.addEventListener('load', scroll);
+window.addEventListener('load', navbutton);
+
+function navbutton() {
+    var hamburger = document.getElementById('hamburger');
+
+    $(hamburger).click(function() {
+        $(this).toggleClass('is-active');
+    })
+}
 
 function scrollNav(offset, navCont, dataCont, linkClass, activeClass, contentClass) {
     this.navCont = navCont || 'navbar';

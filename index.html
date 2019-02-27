@@ -33,9 +33,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#robu">Roburious</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="#projects">Projects</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="#team">Team</a>
                 </li>
@@ -83,15 +83,18 @@
                     <p>Robourious is the flagship event of the Robotics club of IISER Mohali, with its first ever edition to be held during Insomnia 2019. Roburious 2019 comprise of industrial autonomous robotics workshop conducted by experts of Indian School
                         of Robotics. Robotics is a multi-disciplinary subject with roots in electronics, computer science and mechanics. Be a part of Roburious and dive into the world of science and technology.
                     </p>
+                    <p>
+                        For more details <br> <a href="roburious.html"> Click here</a>
+                    </p>
                 </div>
             </div>
         </section>
-        <section id='projects' class='scrollNav-content page'>
+        <!-- <section id='projects' class='scrollNav-content page'>
             <div class='content'>
                 <h1>Our Projects</h1>
 
             </div>
-        </section>
+        </section> -->
         <section id='team' class='scrollNav-content page'>
             <div class='content'>
                 <h1>Our Team</h1>
@@ -187,8 +190,10 @@
         </section>
         <section id='contact' class='scrollNav-content'>
             <div class='content'>
-                <div>
-                    Email us at roboticsclubiiserm@gmail.com
+                <div id='contactus'>
+                    <h2>Contact Us</h2>
+                    Abhishek Purohit: (+91)9437581515<br> Aaditya Mishra: (+91)9781888639<br> Email us at
+                    <a href="mailto:roboticsclubiiserm@gmail.com" target="_top">roboticsclubiiserm@gmail.com</a>
                 </div>
                 <div class="social">
                     <a href='https://www.facebook.com/roboticsclubiiserm/' target="_blank">
@@ -217,14 +222,6 @@
             var s = new scrollNav();
             s.init();
         });
-
-        function navbutton() {
-            var hamburger = document.getElementById('hamburger');
-
-            $(hamburger).click(function() {
-                $(this).toggleClass('is-active');
-            })
-        }
     </script>
 
 

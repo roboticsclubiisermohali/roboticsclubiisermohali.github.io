@@ -162,6 +162,16 @@ body {
     font-size: 1.1em;
     font-family: 'Josefin Sans', sans-serif;
     padding: 1em 2em 1em 2em;
+    text-align: center;
+}
+
+.content p>a {
+    display: inline-block;
+}
+
+.content p>a:hover {
+    transition: color .5s;
+    color: #ff3b1b;
 }
 
 .navbar-right {
@@ -471,4 +481,51 @@ a:hover {
         margin: 0 auto;
         clear: both;
     }
+}
+
+#contactus {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#contactus h2 {
+    color: #ff3b1b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+#roburiouspg {
+    margin: 0 0;
+    background: #000;
+}
+
+#roburiouspg img {
+    width: 100vw;
+}
+
+#back {
+    display: block;
+    width: 100vw;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #f2f2f2;
+    padding: 10px 0;
+}
+
+#back a {
+    background: #ff3b1b;
+    color: #2365c2;
+    padding: 3px 3px;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: all .5s;
+}
+
+#back a:hover {
+    color: #ff3b1b;
+    background: #2365c2;
 }
