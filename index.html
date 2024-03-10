@@ -1,230 +1,294 @@
 <!DOCTYPE html>
-<html>
-
-<head>
+<html lang="en">
+  <head>
+    <title>Robotics Club</title>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Robotics Club | IISER Mohali</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" href="img/RoboticsClubWebIcon.png">
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="HTML5 website template" />
+    <meta name="keywords" content="global, template, html, sass, jquery" />
+    <meta name="author" content="Bucky Maler" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
 
-<body onload="navbutton()" onscroll="scroll()">
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#">
-            <img src="img/RoboticsClubIconColor.png" class="d-inline-block align-top" alt=""> <span id='headtext'> Robotics Club |</span> IISER Mohali
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="hamburger">
-            <span class="navbar-toggler-icon "></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav navbar-right ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#robu">Roburious</a>
-                </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li> -->
-                <li class="nav-item">
-                    <a class="nav-link" href="#team">Team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact Us</a>
-                </li>
-                <!-- <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li> -->
-            </ul>
-        </div>
-    </nav>
-    <div class='scrollNavData'>
-        <section id='home' class="parallax-window scrollNav-content" data-parallax="scroll" data-image-src="img/bgtemp.jpg">
-            <div id='heading'>
-                <h1>Welcome to Robotics Club@IISER Mohali</h1>
-            </div>
-        </section>
-        <section id='about' class='scrollNav-content page'>
-            <div class='content'>
-                <h1>About us</h1>
-                <p>
-                    The Robotics Club, <a href="http://iisermohali.ac.in" target="_blank">IISER Mohali</a> is a student run group of highly motivated undergraduate and graduate students from the Indian Institute of Science Education and Research, Mohali.
-                    We believe science and technology should go hand in hand aimed at innovation and recreation of interesting technologies to be used in robots and it's research. Our mission is to push forward what's possible as a student organisation,
-                    both in terms of technical accomplishments and educational value. That is why we welcome students from all backgrounds and experiences, and offer them real hands on experience in constructing robots and leading a team. Our ultimate
-                    goal is to open the possibility of becoming a robotics innovator to anyone. We achieve it via workshop sessions, exhibitions and seminars by experts working worldwide in this field.
-                </p>
-                <div class="parallax-window abtwin" data-parallax="scroll" data-image-src="img/linefollow.jpg">
-                </div>
-            </div>
-        </section>
-        <section id="robu" class='scrollNav-content page'>
-            <div class="parallax-window robucover" data-parallax="scroll" data-image-src="img/roburious2.png">
-                <div class='content'>
-                    <h1>Roburious</h1>
-                    <p>Robourious is the flagship event of the Robotics club of IISER Mohali, with its first ever edition to be held during Insomnia 2019. Roburious 2019 comprise of industrial autonomous robotics workshop conducted by experts of Indian School
-                        of Robotics. Robotics is a multi-disciplinary subject with roots in electronics, computer science and mechanics. Be a part of Roburious and dive into the world of science and technology.
-                    </p>
-                    <p>
-                        For more details <br> <a href="roburious.html"> Click here</a>
-                    </p>
-                </div>
-            </div>
-        </section>
-        <!-- <section id='projects' class='scrollNav-content page'>
-            <div class='content'>
-                <h1>Our Projects</h1>
-
-            </div>
-        </section> -->
-        <section id='team' class='scrollNav-content page'>
-            <div class='content'>
-                <h1>Our Team</h1>
-                <H3>CURRENT CONVENORS</H3>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="our-team">
-                            <div class="pic">
-                                <img src="img/abhishek.jpg">
-                            </div>
-                            <div class="team-content">
-                                <h3 class="title">Abhishek Purohit</h3>
-                                <span class="post">Convenor</span>
-                            </div>
-                            <ul class="social">
-                                <li>
-                                    <a href="https://www.facebook.com/abhishek.purohit.942" target="_blank" class="fa fa-facebook"></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="our-team">
-                            <div class="pic">
-                                <img src="img/aaditya.jpg">
-                            </div>
-                            <div class="team-content">
-                                <h3 class="title">Aaditya Mishra</h3>
-                                <span class="post">Co-convenor</span>
-                            </div>
-                            <ul class="social">
-                                <li>
-                                    <a href="https://www.facebook.com/aaditya.mishra.18" target="_blank" class="fa fa-facebook"></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <H3>PAST CONVENORS</H3>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="our-team">
-                            <div class="pic">
-                                <img src="img/kanharam.jpg">
-                            </div>
-                            <div class="team-content">
-                                <h3 class="title">Kanha Ram Khator</h3>
-                                <span class="post">Founder, Convenor </span>
-                            </div>
-                            <ul class="social">
-                                <li>
-                                    <a href="https://www.facebook.com/kanharamkhator" target="_blank" class="fa fa-facebook"></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="our-team">
-                            <div class="pic">
-                                <img src="img/bhavish.jpg">
-                            </div>
-                            <div class="team-content">
-                                <h3 class="title">Bhavish R Gopal</h3>
-                                <span class="post">Convenor(2017-2018) </span>
-                            </div>
-                            <ul class="social">
-                                <li>
-                                    <a href="https://www.facebook.com/gbhavish.gopal" target="_blank" class="fa fa-facebook"></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="our-team">
-                            <div class="pic">
-                                <img src="img/sumesh.jpg">
-                            </div>
-                            <div class="team-content">
-                                <h3 class="title">Sumesh Meena</h3>
-                                <span class="post">Co-convenor(2017-2018) </span>
-                            </div>
-                            <ul class="social">
-                                <li>
-                                    <a href="https://www.facebook.com/sumeshmeena" target="_blank" class="fa fa-facebook"></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id='contact' class='scrollNav-content'>
-            <div class='content'>
-                <div id='contactus'>
-                    <h2>Contact Us</h2>
-                    Abhishek Purohit: (+91)9437581515<br> Aaditya Mishra: (+91)9781888639<br> Email us at
-                    <a href="mailto:roboticsclubiiserm@gmail.com" target="_top">roboticsclubiiserm@gmail.com</a>
-                </div>
-                <div class="social">
-                    <a href='https://www.facebook.com/roboticsclubiiserm/' target="_blank">
-                        <div id="fb" class='socialico'>
-                            <i class="fa fa-facebook-f"></i>
-                        </div>
-                    </a>
-                    <a href='https://www.youtube.com/channel/UCM-bemjlyhsnwKTtOCEjprQ/featured' target="_blank">
-                        <div id="yt" class='socialico'>
-                            <i class="fa fa-youtube-play"></i>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </section>
+  <body>
+    <!-- notification for small viewports and landscape oriented smartphones -->
+    <div class="device-notification">
+      <a class="device-notification--logo" href="#0"> Robotics Club </a>
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/parallax.js"></script>
-    <script src="https://code.jquery.com/jquery.min.js"></script>
-    <script src="js/scroll-nav.js"></script>
+
+    <div class="perspective effect-rotate-left">
+      <div class="container">
+        <div class="outer-nav--return"></div>
+        <div id="viewport" class="l-viewport">
+          <div class="l-wrapper">
+            <header class="header">
+              <a class="header--logo" href="#0">
+                <p>Robotics Club</p>
+              </a>
+              <!--button class="header--cta cta">View Events</button-->
+              <div class="header--nav-toggle">
+                <span></span>
+              </div>
+            </header>
+            <nav class="l-side-nav">
+              <ul class="side-nav">
+                <li class="is-active"><span>Home</span></li>
+                <li><span>Projects</span></li>
+                <li><span>Team</span></li>
+                <li><span>Contact Us</span></li>
+                <li><span>Events</span></li>
+              </ul>
+            </nav>
+            <ul class="l-main-content main-content">
+              <li class="l-section section section--is-active">
+                <div class="intro">
+                  <div class="intro--banner">
+                    <h1>
+                      Robotics <br />
+                      Club<br />
+                    </h1>
+                    <h2>
+                      <span class="typed-text"></span
+                      ><span class="cursor">&nbsp;</span>
+                    </h2>
+                    <button class="cta">
+                      Upcoming Events
+                      <svg
+                        version="1.1"
+                        id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px"
+                        y="0px"
+                        viewBox="0 0 150 118"
+                        style="enable-background: new 0 0 150 118"
+                        xml:space="preserve"
+                      >
+                        <g
+                          transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)"
+                        >
+                          <path
+                            d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"
+                          />
+                        </g>
+                      </svg>
+                      <span class="btn-background"></span>
+                    </button>
+                    <img
+                      class="intro-image-tanmay"
+                      src="assets/img/robotics-removebg-preview.png"
+                      alt="Welcome"
+                    />
+                  </div>
+                </div>
+              </li>
+              <li class="l-section section">
+                <div class="work">
+                  <h2>Our Projects</h2>
+                  <div class="work--lockup">
+                    <ul class="slider">
+                      <div class="flex">
+                        <div class="half">
+                          <li class="flex-item">
+                            <a href="#0">
+                              <div class="">
+                                <img
+                                  style="
+                                    width: 100%;
+                                    height: 50vh;
+                                    border-radius: 20px;
+                                  "
+                                  src="./assets/img/sbs-001-gesture-controlled-vechile.jpg"
+                                  alt="SBS-001"
+                                />
+                              </div>
+                              <p class="item-title">
+                                SBS 001 : Gesture Controlled Vechile
+                              </p>
+                            </a>
+                          </li>
+                        </div>
+                        <div class="half">
+                          <li class="flex-item">
+                            <a href="#0">
+                              <div class="">
+                                <img
+                                  style="
+                                    width: 100%;
+                                    height: 50vh;
+                                    border-radius: 20px;
+                                  "
+                                  src="./assets/img/motor-neuron.jpg"
+                                  alt="Motor Neuron"
+                                />
+                              </div>
+                              <p class="item-title">Motor Neuron</p>
+                            </a>
+                          </li>
+                        </div>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="l-section section">
+                <div class="about">
+                  <div class="about--banner">
+                    <h2>Our Team</h2>
+                    <h3 style="width: 60%"></h3>
+                    <div class="team">
+                      <div class="flex">
+                        <div class="f-30 gina">
+                          <div class="text-conv">
+                            <h1>Gina Sharma</h1>
+                            <h3>Convenor</h3>
+                          </div>
+                        </div>
+                        <div class="f-30 harshit">
+                          <div class="text-conv">
+                            <h1>Harshit Krishna</h1>
+                            <h3>Co-Convenor</h3>
+                          </div>
+                        </div>
+                        <div class="f-30 sam">
+                          <div class="text-conv">
+                            <h1>Amey Chandak</h1>
+                            <h3>Co-Convenor</h3>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <!--a href="./about/"
+                      >Read More
+                      --<span>
+                        <svg
+                          version="1.1"
+                          id="Layer_1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          x="0px"
+                          y="0px"
+                          viewBox="0 0 150 118"
+                          style="enable-background: new 0 0 150 118"
+                          xml:space="preserve"
+                        >
+                          <g
+                            transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)"
+                          >
+                            <path
+                              d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"
+                            />
+                          </g>
+                        </svg>
+                      </span>
+                    </a-->
+                    <!--img
+                      src="assets/img/robotics-removebg-preview.png"
+                      alt="About Us"
+                    /-->
+                  </div>
+                </div>
+              </li>
+              <li class="l-section section">
+                <div class="contact">
+                  <div class="contact--lockup">
+                    <div class="modal">
+                      <div class="modal--information">
+                        <p>IISER Mohali, SAS Nagar, Mohali, Punjab</p>
+                        <a href="mailto:roboticsclub@iisermohali.ac.in"
+                          >roboticsclub@iisermohali.ac.in</a
+                        >
+                      </div>
+                      <ul class="modal--options">
+                        <li><a href="https://www.instagram.com/officialroboticsclub_iiserm/" target="_blank">Instagram</a></li>
+                        <!--li><a href="#0"></a></li-->
+                        <li>
+                          <a href="mailto:roboticsclub@iisermohali.ac.in">Contact Us</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="l-section section">
+                <div class="hire">
+                  <p style="padding-top:10%">
+                    <h1>We will update the upcoming event list soon.</h1>
+                    <img src="./assets/img/158549-720p--unscreen.gif" height="100%"/>
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <ul class="outer-nav">
+        <li class="is-active">Home</li>
+        <li>Works</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Hire us</li>
+      </ul>
+    </div>
+
     <script>
-        $(document).ready(function() {
-            var s = new scrollNav();
-            s.init();
-        });
+      /*typing effect code*/
+      const typedTextSpan = document.querySelector(".typed-text");
+      const cursorSpan = document.querySelector(".cursor");
+
+      const textArray = ["of IISER Mohali"];
+      const typingDelay = 200;
+      const erasingDelay = 100;
+      const newTextDelay = 2000; // Delay between current and next text
+      let textArrayIndex = 0;
+      let charIndex = 0;
+
+      function type() {
+        if (charIndex < textArray[textArrayIndex].length) {
+          if (!cursorSpan.classList.contains("typing"))
+            cursorSpan.classList.add("typing");
+          typedTextSpan.textContent +=
+            textArray[textArrayIndex].charAt(charIndex);
+          charIndex++;
+          setTimeout(type, typingDelay);
+        } else {
+          cursorSpan.classList.remove("typing");
+          setTimeout(erase, newTextDelay);
+        }
+      }
+
+      function erase() {
+        if (charIndex > 0) {
+          if (!cursorSpan.classList.contains("typing"))
+            cursorSpan.classList.add("typing");
+          typedTextSpan.textContent = textArray[textArrayIndex].substring(
+            0,
+            charIndex - 1
+          );
+          charIndex--;
+          setTimeout(erase, erasingDelay);
+        } else {
+          cursorSpan.classList.remove("typing");
+          textArrayIndex++;
+          if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+          setTimeout(type, typingDelay + 1100);
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        // On DOM Load initiate the effect
+        if (textArray.length) setTimeout(type, newTextDelay + 250);
+      });
     </script>
-
-
-</body>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>'
+        );
+    </script>
+    <script src="assets/js/functions-min.js"></script>
+  </body>
 </html>
